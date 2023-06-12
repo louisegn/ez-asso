@@ -24,7 +24,7 @@ export default function Home() {
             height="355"
             src="https://www.youtube.com/embed/K2Ytfe4FAw8"
             title="YouTube video player"
-            frameborder="0"
+            // frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
@@ -64,11 +64,12 @@ export default function Home() {
           <p>
             Assistez aux cours de Tai-Chi les jeudis soirs auprès du professeur
             ZHANG Zhen Qi au sein de la salle associative de la Résidence Emile
-            Zola à Arcueil, à 2 minutes de la gare Laplace (RER B). Le cours a
-            lieu en petit comité (moins d'une dizaine de personne), facilitant
-            l'initiative et l'approfondissement de cette gestuelle méditative
-            d'inspiration martiale, avec un maître très pédagogue prêt à
-            s'interrompre et à être sollicité en toute bienveillance.
+            Zola à Arcueil, à 2 minutes de la gare Laplace &#40;RER B&#41;. Le
+            cours a lieu en petit comité &#40;moins d&apos;une dizaine de
+            personne&#41;, facilitant l&apos;initiative et
+            l&apos;approfondissement de cette gestuelle méditative
+            d&apos;inspiration martiale, avec un maître très pédagogue prêt à
+            s&apos;interrompre et à être sollicité en toute bienveillance.
           </p>
         </div>
       </div>
