@@ -58,10 +58,10 @@ export default function Home() {
       </div>
       <section
         id="presentation"
-        className="bg-mygreen flex flex-col items-center p-16"
+        className="bg-mylightgreen flex flex-col items-center p-16"
       >
         {/* <div className="bg-mygreen flex flex-col items-center p-10"> */}
-        <h3 className="text-mywhite text-4xl mb-8">Presentation</h3>
+        <h3 className="text-4xl mb-8">Presentation</h3>
         {/* <div className="flex">
           <TabSection title="Présentation" opened={true} />
           <TabSection title="Contact" opened={false} />
@@ -74,7 +74,7 @@ export default function Home() {
           width={500}
           height={24}
         /> */}
-        <div className="w-2/4 text-mywhite text-2xl text-center">
+        <div className="w-2/4 text-2xl text-center">
           <p>
             Assistez aux cours de Tai-Chi les jeudis soirs auprès du professeur
             ZHANG Zhen Qi au sein de la salle associative de la Résidence Emile
