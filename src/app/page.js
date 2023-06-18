@@ -8,19 +8,20 @@ export default function Home() {
 
   return (
     <main className="h-screen">
-      <div className="h-32 flex items-center">
-        <h2 className="text-6xl ml-10">Tai Chi - Qi Gong</h2>
+      <div className="h-24 flex items-center">
+        {/* <h2 className="text-6xl ml-10">Tai Chi - Qi Gong</h2> */}
+        <h1 className="text-4xl">Cours de Tai Chi et Qi Gong à Arcueil</h1>
       </div>
-      <div className="border-0 border-black h-32 flex justify-center items-center">
-        <div className="h-16 w-4/5 bg-mygreen rounded-full">
-          <nav className="h-full flex justify-evenly items-center text-mywhite text-2xl">
-            <a href="#presentation" className="text-mywhite">
-              Présentation
-            </a>
-            <a href="#infos">Infos & contact</a>
-          </nav>
-        </div>
+      {/* <div className="border-2 border-black h- flex justify-center items-center"> */}
+      <div className="h-16 w-full bg-mygreen">
+        <nav className="h-full  flex justify-evenly items-center text-mywhite text-2xl">
+          <a href="#presentation" className="text-white">
+            Présentation
+          </a>
+          <a href="#infos">Infos & contact</a>
+        </nav>
       </div>
+      {/* </div> */}
       <div className="flex p-10">
         <div className="w-3/6 flex justify-center items-center">
           <h1 className="text-4xl">
@@ -58,7 +59,7 @@ export default function Home() {
       </div>
       <section
         id="presentation"
-        className="bg-mylightgreen flex flex-col items-center p-16"
+        className="bg-mygreen flex flex-col items-center p-16"
       >
         {/* <div className="bg-mygreen flex flex-col items-center p-10"> */}
         <h3 className="text-4xl mb-8">Presentation</h3>
@@ -75,7 +76,7 @@ export default function Home() {
           height={24}
         /> */}
         <div className="w-2/4 text-2xl text-center">
-          <p>
+          <p className="text-white">
             Assistez aux cours de Tai-Chi les jeudis soirs auprès du professeur
             ZHANG Zhen Qi au sein de la salle associative de la Résidence Emile
             Zola à Arcueil, à 2 minutes de la gare Laplace &#40;RER B&#41;. Le
@@ -91,10 +92,18 @@ export default function Home() {
       <section id="infos" className="flex flex-col items-center p-16">
         <h3 className="text-4xl mb-8">Infos et contact</h3>
         <div className="w-2/4 text-2xl text-center">
-          <p>Débutant le jeudi de 17h à 18h</p>
-          <p>Confirmé le jeudi de 18h à 19h</p>
-          <p className="mt-4">email: contact@loisirsemilezola.fr</p>
-          <p>tel: 06 65 13 74 31</p>
+          <div className="bg-mylightgreen">
+            <p>Débutant le jeudi de 17h à 18h</p>
+            <p>Confirmé le jeudi de 18h à 19h</p>
+          </div>
+          <p className="m-8 text-3xl">
+            Pour toute demande d&apos;inscription ou pour plus de renseignements
+            contactez:
+          </p>
+          <div className="bg-mylightgreen">
+            <p className="mt-4">email: contact@loisirsemilezola.fr</p>
+            <p>tel: 06 65 13 74 31</p>
+          </div>
         </div>
       </section>
     </main>
