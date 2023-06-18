@@ -75,7 +75,7 @@ export default function Home() {
           width={500}
           height={24}
         /> */}
-        <div className="w-2/4 text-2xl text-center">
+        <div className="w-2/4 text-2xl text-center text-white">
           <p className="text-white">
             Assistez aux cours de Tai-Chi les jeudis soirs auprès du professeur
             ZHANG Zhen Qi au sein de la salle associative de la Résidence Emile
