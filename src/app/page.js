@@ -15,9 +15,7 @@ export default function Home() {
       {/* <div className="border-2 border-black h- flex justify-center items-center"> */}
       <div className="h-16 w-full bg-mygreen">
         <nav className="h-full  flex justify-evenly items-center text-mywhite text-2xl">
-          <a href="#presentation" className="text-white">
-            Présentation
-          </a>
+          <a href="#presentation">Présentation</a>
           <a href="#infos">Infos & contact</a>
         </nav>
       </div>
@@ -62,7 +60,7 @@ export default function Home() {
         className="bg-mygreen flex flex-col items-center p-16"
       >
         {/* <div className="bg-mygreen flex flex-col items-center p-10"> */}
-        <h3 className="text-4xl mb-8">Presentation</h3>
+        <h3 className="text-4xl mb-8 text-white">Presentation</h3>
         {/* <div className="flex">
           <TabSection title="Présentation" opened={true} />
           <TabSection title="Contact" opened={false} />
